@@ -1,7 +1,7 @@
-import React from "react";
-import logo from "./logo.svg";
-import NavigationBar from "./components/NavigationBar";
-import "./App.css";
+import React from 'react';
+import logo from './assets/logo.svg';
+import NavigationBar from './components/NavigationBar';
+import './styles/App.css';
 
 function App() {
   return (
