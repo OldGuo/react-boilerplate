@@ -1,9 +1,18 @@
-import React from 'react';
-import { Navbar, Nav, NavDropdown, NavItem, MenuItem } from 'react-bootstrap';
+import React from "react";
+import {
+  Button,
+  Navbar,
+  Nav,
+  NavDropdown,
+  NavItem,
+  MenuItem
+} from "react-bootstrap";
 
 function NavigationBar() {
   return (
     <Navbar>
+      <Button bStyle="primary">Hello</Button>
+      <Button bsStyle="success">Success</Button>
       <Navbar.Header>
         <Navbar.Brand>
           <a href="#home">React-Bootstrap</a>

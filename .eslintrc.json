@@ -1,7 +1,15 @@
 {
-  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
   "env": {
     "browser": true,
     "jest": true
-  }
+  },
+  "extends": [
+    "airbnb",
+    "prettier"
+  ]
 }
